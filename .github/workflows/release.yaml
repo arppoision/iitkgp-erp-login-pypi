@@ -144,4 +144,4 @@ jobs:
 
       - name: Releasing to pypi
         run: |
-          twine upload dist/*
+          twine upload --repository testpypi dist/*
